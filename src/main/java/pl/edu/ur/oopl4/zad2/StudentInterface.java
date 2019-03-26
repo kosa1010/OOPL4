@@ -1,7 +1,6 @@
 package pl.edu.ur.oopl4.zad2;
 
 /**
- * Created by mchyl on 28/07/2018.
  */
 public interface StudentInterface {
 

@@ -5,7 +5,6 @@ import pl.edu.ur.oopl4.zad1.Person;
 import java.util.Scanner;
 
 /**
- * Created by mchyl on 28/07/2018.
  */
 public class Student implements StudentInterface{
 

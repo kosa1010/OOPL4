@@ -1,7 +1,6 @@
 package pl.edu.ur.oopl4.zad1;
 
 /**
- * Created by mchyl on 28/07/2018.
  */
 public class PersonalData {
 

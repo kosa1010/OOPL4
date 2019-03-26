@@ -3,7 +3,6 @@ package pl.edu.ur.oopl4.zad3.interfaces;
 import java.util.Scanner;
 
 /**
- * Created by mchyl on 28/07/2018.
  */
 public interface StudentGroupInterface {
 

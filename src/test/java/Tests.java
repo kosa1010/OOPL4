@@ -14,7 +14,6 @@ import java.io.InputStream;
 import java.util.Scanner;
 
 /**
- * Created by mchyl on 28/07/2018.
  */
 public class Tests {
 
