@@ -17,7 +17,7 @@ import java.util.Scanner;
  */
 public class Tests {
 
-    @Test
+    @Test (timeout = 10000)
     public void testEx2() {
 
         Student student1 = new Student("Jan", "Kowalski", 1234, "ISWD", 1);
@@ -65,7 +65,7 @@ public class Tests {
 
     }
 
-    @Test
+    @Test(timeout = 10000)
     public void testEx2_1() {
 
         String input = "Adam\n" +
@@ -83,61 +83,61 @@ public class Tests {
         Assert.assertEquals(1, student.getYearOfStudy());
     }
 
-    @Test
+    @Test(timeout = 10000)
     public void testCircleField(){
         Circle circle = new Circle(2);
         Assert.assertEquals(Math.round(Math.PI*Math.pow(2, 2)), Math.round(circle.area()));
     }
 
-    @Test
+    @Test(timeout = 10000)
     public void testCirclePerimeter(){
         Circle circle = new Circle(2);
         Assert.assertEquals(Math.round(2*(Math.PI*2)), Math.round(circle.perimeter()));
     }
 
-    @Test
+    @Test(timeout = 10000)
     public void testSquareField(){
         Square square = new Square(2);
         Assert.assertEquals(Math.round(Math.pow(2,2)), Math.round(square.area()));
     }
 
-    @Test
+    @Test(timeout = 10000)
     public void testSquarePerimeter(){
         Square square = new Square(2);
         Assert.assertEquals(4*2, Math.round(square.perimeter()));
     }
-    @Test
+    @Test(timeout = 10000)
     public void testRectangleField(){
         Rectangle rectangle = new Rectangle(2, 3);
         Assert.assertEquals(Math.round(2*3), Math.round(rectangle.area()));
     }
 
-    @Test
+    @Test(timeout = 10000)
     public void testRectanglePerimeter(){
         Rectangle rectangle = new Rectangle(2, 3);
         Assert.assertEquals((2*2)+(2*3), Math.round(rectangle.perimeter()));
     }
 
 
-    @Test
+    @Test(timeout = 10000)
     public void testCubeSize(){
         Cube cube = new Cube(2);
         Assert.assertEquals(Math.round(Math.pow(2, 3)), Math.round(cube.size()));
     }
 
-    @Test
+    @Test(timeout = 10000)
     public void testConeSize(){
         Cone cone = new Cone(2, 2);
         Assert.assertEquals(Math.round((1.0/3.0)*Math.PI*Math.pow(2,2)*2), Math.round(cone.size()));
     }
 
-    @Test
+    @Test(timeout = 10000)
     public void testCuboidSize(){
         Cuboid cuboid = new Cuboid(2, 3, 4);
         Assert.assertEquals(Math.round(2*3*4), Math.round(cuboid.size()));
     }
 
-    @Test
+    @Test(timeout = 10000)
     public void testSphereSize(){
         Sphere sphere = new Sphere(2);
         Assert.assertEquals(Math.round((4.0/3)*Math.PI*Math.pow(2,3)*2), Math.round(sphere.size()));
