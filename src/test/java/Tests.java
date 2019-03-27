@@ -1,23 +1,24 @@
+
 import org.junit.Assert;
 import org.junit.Test;
 import pl.edu.ur.oopl4.zad2.Student;
 import pl.edu.ur.oopl4.zad3.figures.flat.Circle;
-import pl.edu.ur.oopl4.zad3.figures.flat.Rectangle;
 import pl.edu.ur.oopl4.zad3.figures.flat.Square;
+
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.util.Scanner;
+import pl.edu.ur.oopl4.zad3.figures.flat.Rectangle;
 import pl.edu.ur.oopl4.zad3.figures.spatial.Cone;
 import pl.edu.ur.oopl4.zad3.figures.spatial.Cube;
 import pl.edu.ur.oopl4.zad3.figures.spatial.Cuboid;
 import pl.edu.ur.oopl4.zad3.figures.spatial.Sphere;
 
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
-import java.util.Scanner;
-
 /**
  */
 public class Tests {
 
-    @Test (timeout = 10000)
+    @Test(timeout = 10000)
     public void testEx2() {
 
         Student student1 = new Student("Jan", "Kowalski", 1234, "ISWD", 1);
@@ -68,11 +69,11 @@ public class Tests {
     @Test(timeout = 10000)
     public void testEx2_1() {
 
-        String input = "Adam\n" +
-                "Test\n" +
-                "1234\n" +
-                "ISWD\n" +
-                "1\n";
+        String input = "Adam\n"
+                + "Test\n"
+                + "1234\n"
+                + "ISWD\n"
+                + "1\n";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         Student student = new Student(new Scanner(in));
 
@@ -84,63 +85,65 @@ public class Tests {
     }
 
     @Test(timeout = 10000)
-    public void testCircleField(){
+    public void testCircleField() {
         Circle circle = new Circle(2);
-        Assert.assertEquals(Math.round(Math.PI*Math.pow(2, 2)), Math.round(circle.area()));
+        System.out.println(Math.round(Math.PI * Math.pow(2, 2)));
+        System.out.println(circle.area());
+        Assert.assertEquals(Math.round(Math.PI * Math.pow(2, 2)), Math.round(circle.area()));
     }
 
     @Test(timeout = 10000)
-    public void testCirclePerimeter(){
+    public void testCirclePerimeter() {
         Circle circle = new Circle(2);
-        Assert.assertEquals(Math.round(2*(Math.PI*2)), Math.round(circle.perimeter()));
+        Assert.assertEquals(Math.round(2 * (Math.PI * 2)), Math.round(circle.perimeter()));
     }
 
     @Test(timeout = 10000)
-    public void testSquareField(){
+    public void testSquareField() {
         Square square = new Square(2);
-        Assert.assertEquals(Math.round(Math.pow(2,2)), Math.round(square.area()));
+        Assert.assertEquals(Math.round(Math.pow(2, 2)), Math.round(square.area()));
     }
 
     @Test(timeout = 10000)
-    public void testSquarePerimeter(){
+    public void testSquarePerimeter() {
         Square square = new Square(2);
-        Assert.assertEquals(4*2, Math.round(square.perimeter()));
+        Assert.assertEquals(4 * 2, Math.round(square.perimeter()));
     }
+
     @Test(timeout = 10000)
-    public void testRectangleField(){
+    public void testRectangleField() {
         Rectangle rectangle = new Rectangle(2, 3);
-        Assert.assertEquals(Math.round(2*3), Math.round(rectangle.area()));
+        Assert.assertEquals(Math.round(2 * 3), Math.round(rectangle.area()));
     }
 
     @Test(timeout = 10000)
-    public void testRectanglePerimeter(){
+    public void testRectanglePerimeter() {
         Rectangle rectangle = new Rectangle(2, 3);
-        Assert.assertEquals((2*2)+(2*3), Math.round(rectangle.perimeter()));
+        Assert.assertEquals((2 * 2) + (2 * 3), Math.round(rectangle.perimeter()));
     }
 
-
     @Test(timeout = 10000)
-    public void testCubeSize(){
+    public void testCubeSize() {
         Cube cube = new Cube(2);
         Assert.assertEquals(Math.round(Math.pow(2, 3)), Math.round(cube.size()));
     }
 
     @Test(timeout = 10000)
-    public void testConeSize(){
+    public void testConeSize() {
         Cone cone = new Cone(2, 2);
-        Assert.assertEquals(Math.round((1.0/3.0)*Math.PI*Math.pow(2,2)*2), Math.round(cone.size()));
+        Assert.assertEquals(Math.round((1.0 / 3.0) * Math.PI * Math.pow(2, 2) * 2), Math.round(cone.size()));
     }
 
     @Test(timeout = 10000)
-    public void testCuboidSize(){
+    public void testCuboidSize() {
         Cuboid cuboid = new Cuboid(2, 3, 4);
-        Assert.assertEquals(Math.round(2*3*4), Math.round(cuboid.size()));
+        Assert.assertEquals(Math.round(2 * 3 * 4), Math.round(cuboid.size()));
     }
 
     @Test(timeout = 10000)
-    public void testSphereSize(){
+    public void testSphereSize() {
         Sphere sphere = new Sphere(2);
-        Assert.assertEquals(Math.round((4.0/3)*Math.PI*Math.pow(2,3)*2), Math.round(sphere.size()));
+        Assert.assertEquals(Math.round((4.0 / 3) * Math.PI * Math.pow(2, 3)), Math.round(sphere.size()));
     }
 
 }
