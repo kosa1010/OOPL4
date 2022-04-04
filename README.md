@@ -91,7 +91,7 @@ public class PersonalData {
 
 Jakie wyniki zostaną wyświetlone na konsoli?
 
-### Ważne (przeczytać !!!):
+### Ważne (przeczytaj !!!):
 
 * Konstruktory służą do tworzenia obiektów. W języku Java konstruktor posiada następujące cechy: jego nazwa jest identyczna z nazwą klasy, w której się znajduje; może posiadać parametry, którymi najczęściej ustawia wartości pól w klasie; w odróżnieniu od metod nie zwraca żadnej wartości. Jeśli programista nie zdefiniuje, żadnego konstruktora wewnątrz klasy, kompilator utworzy w trakcie kompilacji konstruktor domniemany dla tej klasy. Będzie on ekwiwalentem konstruktora pustego, z tą różnicą, że nie będzie on obecny w kodzie programu. Java tworzy konstruktory domyślne tylko w przypadku braku jakiegokolwiek konstruktora w kodzie klasy. 
 
