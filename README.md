@@ -132,4 +132,4 @@ Zaimplementuj metody z interfejsu `StudentGroupInterface` umożliwiające:
 *	pobranie (jako `String`)/wyświetlenie zakresu obiektów w podanym zakresie (`getStudentsFromRange(int start, int end)`, `showStudentsFromRange(int start, int end)`)
  
 
-##### W oparciu o opracowanie dr inż. Wojciecha Kozła
+##### W oparciu o opracowanie które przygotował dr inż. Wojciech Kozioł
