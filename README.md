@@ -112,7 +112,7 @@ Przesłoń metodę `toString()` dla klasy `Student`.
 Utwórz w klasie `Student` z zadania 2 konstruktor przyjmujący obiekt klasy `Scanner` (`Student(Scanner in)`) w celu utworzenia obiektu klasy `Student` z polami zainicjalizowanymi poprzez dane wprowadzone przez użytkownika z konsoli.
 
 ## Zadanie 3
-W nowym pakiecie (np. `pl.edu.ur.polab4.zad3`) utwórz klasy opisujące następujące figury geometryczne: `Circle`, ` Square`,  `Rectangle`, `Cube`, `Cuboid`, `Sphere`, `Cone`. Dla każdej klasy dobierz odpowiednie pola. Utwórz także metody obliczające pola figur (`area`), obwody (`perimeter`) (dla figur płaskich), oraz objętości (`size`) (dla figur przestrzennych). W tym celu zaimplementuj w klasach metody klas abstrakcyjnych `Figure2D` oraz `Figure3D`. Dla każdej klasy utwórz metodę wyświetlającą dane dotyczące figury tj. nazwa, parametry, wartość pola i obwodu lub objętości. Utwórz obiekty tych figur i pokaż wyniki obliczeń przy użyciu funkcji wyświetlającej dane.
+W nowym pakiecie (np. `pl.edu.ur.polab4.zad3`) utwórz klasy opisujące następujące figury geometryczne: `Circle`, ` Square`,  `Rectangle`, `Cube`, `Cuboid`, `Sphere`, `Cone`. Dla każdej klasy dobierz odpowiednie pola. Utwórz także metody obliczające pola figur (`area`), obwody (`perimeter`) (dla figur płaskich), oraz objętości (`volume`) (dla figur przestrzennych). W tym celu zaimplementuj w klasach metody klas abstrakcyjnych `Figure2D` oraz `Figure3D`. Dla każdej klasy utwórz metodę wyświetlającą dane dotyczące figury tj. nazwa, parametry, wartość pola i obwodu lub objętości. Utwórz obiekty tych figur i pokaż wyniki obliczeń przy użyciu funkcji wyświetlającej dane.
 
 *Utwórz kalkulator dla figur geometrycznych tj. odpowiednie menu pozwalające na: wybór figury geometrycznej oraz wprowadzanie parametrów dla tej figury z konsoli. Następnie wyświetl wyniki przy użyciu metody wyświetlającej dane. 
 
@@ -125,7 +125,7 @@ W nowym pakiecie (np. `pl.edu.ur.polab4.zad4`) utwórz klasę `StudentGroup` zaw
 
 Zaimplementuj metody z interfejsu `StudentGroupInterface` umożliwiające:
 
-*	wprowadzanie/edycję danych studenta pod wybrany index tablicy (`setStudentDataAtIndex(int index)`)
+*	wprowadzanie/edycję danych studenta pod wybrany index tablicy (`setStudentDataAtIndex(int index, String name, String surname, long indexNumber, String speciality, int yearOfStudy)`)
 *	usunięcie danych studenta (tj. nadpisanie elementów tablicy wartościami domyślnymi) (`setDefaultDataAtIndex(int index)`)
 *	pobranie (jako `String`)/wyświetlenie obiektu o danym indeksie (`getStudentDataAtIndex(int index)` + `showStudentDataAtIndex(int index)`)
 *	pobranie (jako `String`)/wyświetlenie wszystkich obiektów (`getDataOfAllStudents()` + `showDataOfAllStudents()`)
