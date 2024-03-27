@@ -1,8 +1,9 @@
 package pl.edu.ur.oopl4.zad3.abstractClasses;
 
 /**
+ *
  */
-public abstract class Figure3D extends Figure{
+public abstract class Figure3D extends Figure {
 
     protected double a;
     protected double b;
@@ -24,7 +25,7 @@ public abstract class Figure3D extends Figure{
         this.r = r;
     }
 
-    public abstract double size();
+    public abstract double volume();
 
 
 }

@@ -10,14 +10,15 @@ public class Square extends Figure2D {
         super(a, a);
     }
 
-    public int area() {
+    public double area() {
         return 0;
     }
 
-    public int perimeter() {
+    public double perimeter() {
         return 0;
     }
 
+    @Override
     public void showData() {
 
     }

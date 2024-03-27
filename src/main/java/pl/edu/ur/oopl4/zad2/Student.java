@@ -24,7 +24,7 @@ public class Student implements StudentInterface{
         return null;
     }
 
-    public int getIndexNumber() {
+    public long getIndexNumber() {
         return 0;
     }
 
@@ -44,7 +44,7 @@ public class Student implements StudentInterface{
 
     }
 
-    public void setIndexNumber(int indexNumber) {
+    public void setIndexNumber(long indexNumber) {
 
     }
 

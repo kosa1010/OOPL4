@@ -10,7 +10,7 @@ public class Cube extends Figure3D {
         super(a, a, a);
     }
 
-    public double size() {
+    public double volume() {
         return 0;
     }
 

@@ -10,11 +10,11 @@ public class Rectangle extends Figure2D {
         super(a, b);
     }
 
-    public int area() {
+    public double area() {
         return 0;
     }
 
-    public int perimeter() {
+    public double perimeter() {
         return 0;
     }
 

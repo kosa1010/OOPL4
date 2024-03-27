@@ -10,15 +10,12 @@ public class Circle extends Figure2D {
         super(r);
     }
 
-    public int area() {
+    public double area() {
         return 0;
     }
 
-    public int perimeter() {
+    public double perimeter() {
         return 0;
     }
 
-    public void showData() {
-
-    }
 }

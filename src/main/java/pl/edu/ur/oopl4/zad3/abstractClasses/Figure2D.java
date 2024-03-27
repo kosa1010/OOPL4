@@ -1,24 +1,25 @@
 package pl.edu.ur.oopl4.zad3.abstractClasses;
 
 /**
+ *
  */
-public abstract class Figure2D  extends Figure{
+public abstract class Figure2D extends Figure {
 
-    protected int a;
-    protected int b;
-    protected int r;
+    protected double a;
+    protected double b;
+    protected double r;
 
-    public Figure2D(int a, int b) {
+    public Figure2D(double a, double b) {
         this.a = a;
         this.b = b;
     }
 
-    public Figure2D(int r) {
+    public Figure2D(double r) {
         this.r = r;
     }
 
-    public abstract int area();
+    public abstract double area();
 
-    public abstract int perimeter();
+    public abstract double perimeter();
 
 }

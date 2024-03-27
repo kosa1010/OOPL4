@@ -6,13 +6,13 @@ public interface StudentInterface {
 
     String getName();
     String getSurname();
-    int getIndexNumber();
+    long getIndexNumber();
     String getSpeciality();
     int getYearOfStudy();
 
     void setName(String name);
     void setSurname(String surname);
-    void setIndexNumber(int indexNumber);
+    void setIndexNumber(long indexNumber);
     void setSpeciality(String speciality);
     void setYearOfStudy(int yearOfStudy);
 }

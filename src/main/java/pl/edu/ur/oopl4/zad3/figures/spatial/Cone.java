@@ -10,7 +10,7 @@ public class Cone extends Figure3D {
         super(h, r);
     }
 
-    public double size() {
+    public double volume() {
         return 0;
     }
 
