@@ -105,7 +105,7 @@ Na podstawie zadania utwórz klasę `Student` (możesz [nawet byłoby to wskazan
 * `name`, `surname`, `indexNumber`
 * `name`, `surname`
 
-Przesłoń metodę `toString()` dla klasy `Student` tak aby wyświetlała dane o studencie. Utwórz cztery obiekty klasy `Student`, każdy korzystający z innego przeciążenia konstruktora podczas tworzenia obiektu. Dla każdego obiektu wywłołaj przesłoniętą metodę `toString()`.
+Stwórz metodę wyświetlajaca informacje o danych składowych obiektu `showData`. Przesłoń metodę `toString()` dla klasy `Student` tak aby wyświetlała dane o studencie. Utwórz cztery obiekty klasy `Student`, każdy korzystający z innego przeciążenia konstruktora podczas tworzenia obiektu. Dla każdego obiektu wywłołaj przesłoniętą metodę `toString()` oraz metodę `showData`.
 
 
 ## Zadanie 2.1
