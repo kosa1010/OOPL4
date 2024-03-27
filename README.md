@@ -105,8 +105,8 @@ Na podstawie zadania utwórz klasę `Student` (możesz [nawet byłoby to wskazan
 * `name`, `surname`, `indexNumber`
 * `name`, `surname`
 
-Utwórz metodę wyświetlającą dane o studencie. Utwórz cztery obiekty klasy `Student`, każdy korzystający z innego przeciążenia konstruktora podczas tworzenia obiektu. Dla każdego obiektu uruchom metodę wyświetlającą dane.
-Przesłoń metodę `toString()` dla klasy `Student`.
+Przesłoń metodę `toString()` dla klasy `Student` tak aby wyświetlała dane o studencie. Utwórz cztery obiekty klasy `Student`, każdy korzystający z innego przeciążenia konstruktora podczas tworzenia obiektu. Dla każdego obiektu wywłołaj przesłoniętą metodę `toString()`.
+
 
 ## Zadanie 2.1
 Utwórz w klasie `Student` z zadania 2 konstruktor przyjmujący obiekt klasy `Scanner` (`Student(Scanner in)`) w celu utworzenia obiektu klasy `Student` z polami zainicjalizowanymi poprzez dane wprowadzone przez użytkownika z konsoli.
